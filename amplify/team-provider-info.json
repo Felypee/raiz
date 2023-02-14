@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-raiz-dev-135917-authRole",
+      "UnauthRoleArn": "arn:aws:iam::881519930997:role/amplify-raiz-dev-135917-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::881519930997:role/amplify-raiz-dev-135917-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-raiz-dev-135917-deployment",
+      "UnauthRoleName": "amplify-raiz-dev-135917-unauthRole",
+      "StackName": "amplify-raiz-dev-135917",
+      "StackId": "arn:aws:cloudformation:us-east-1:881519930997:stack/amplify-raiz-dev-135917/afc43a80-ac99-11ed-8889-0a096b7c614d",
+      "AmplifyAppId": "dkh98v8zztjwi"
+    },
+    "categories": {
+      "auth": {
+        "raizcognito": {}
+      },
+      "function": {
+        "raizcognitoDefineAuthChallenge": {},
+        "raizcognitoCreateAuthChallenge": {},
+        "raizcognitoVerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": ""
+        },
+        "raizcognitoCustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": ""
+        }
+      }
+    }
+  }
+}
